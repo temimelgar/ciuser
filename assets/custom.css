@@ -1,0 +1,251 @@
+/* BOOTSTRAP */
+
+a{
+	color: #dd4b39;
+}
+
+a:hover,
+a:focus{
+	color: #F81C01;
+}
+
+.form-control:focus {
+	border-color: #919295;
+}
+
+.content-header > h1 {
+	font-size: 23px;
+}
+
+/* CUSTOM */
+
+.del {
+    text-decoration: line-through;
+}
+
+.bg-teal, .callout.callout-teal, .alert-teal, .label-teal, .modal-teal .modal-body {
+    background-color: #30bbbb !important;
+}
+
+.no-resize{
+	resize: none;
+}
+
+.form-group.has-error label span.buttonText {
+    color: #ffffff;
+}
+
+.padding-b-5{
+	padding-bottom: 5px;
+}
+
+.margin-b-10{
+	margin-bottom: 10px;
+}
+
+.margin-t-10{
+	margin-top: 10px;
+}
+
+.margin-l-10{
+	margin-left: 10px;
+}
+
+.filename{
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 600;
+	margin: 0;
+	color: #333;
+}
+
+.img-push.form-group{
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+#activity .box{
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+.box-footer{
+	 border-top: 0;
+}
+
+dd{
+	margin-bottom: 10px;
+}
+
+.tr-hover{
+	cursor: pointer;
+}
+
+/* TABS */
+.nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: #dd4b39;
+}
+
+
+/* CUSTOM INPUTFILE */
+.inputfile + label {
+    margin-bottom: 0;
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+/* BUTTON */
+.btn-dropdown{
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+/* ICON */
+.small-box .icon-sm{
+	font-size: 65px;
+}
+
+.small-box:hover .icon-sm{
+	font-size: 75px;
+}
+
+/* TEXTAREA */
+textarea {
+    resize: none;
+}
+
+/* LOGIN */
+.login-page, .register-page {
+    background: #fff;
+}
+
+.login-box-body {
+    border: 1px solid #d2d6de	;
+}
+
+/* DATA TABLES */
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover {
+    background-color: #dd4b39;
+    border-color: #d73925;
+    color: #fff;
+    cursor: default;
+    z-index: 3;
+}
+
+
+    .styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 140px; /*240*/
+}
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 168px; /*268*/
+}
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.red    { background-color: #DD4B39; }
+.red select    { color: #F6F6F6; }
+
+td.dataTables_empty { text-align: center; }
+
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+
+.btnDefault,
+.btnUpload {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #333333;
+  cursor: pointer;
+  font-weight: 400;
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.btnDefault:focus,
+.btnDefault:hover,
+.btnUpload:focus,
+.btnUpload:hover {
+  background-color: #E6E6E6;
+}
+.btnM {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+.customUpload {
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.customUpload input.upload {
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.select2-selection__choice {
+    background-color: #14503d !important; 
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
